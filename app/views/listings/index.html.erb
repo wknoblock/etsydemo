@@ -1,8 +1,15 @@
 <div class="jumbotron">
-  <H1>Any Type of Subscription</br> Box You Want</h1>
-  <h2>Discover Any Box You want</h2>
+  <H1>A Candy</br>Subscription Box</br></h1>
+  <h2> From Around The World</h2>
+      <button class="subscribe-button">Subscribe!</button>
 </div>
 <div class="center">
+  <div class="marketplace">
+  <h1>Check out the Marketplace!</h1>
+</div>
+<div class="point">
+<img src="http://assets.bulubox.com/assets/homepage/homepage_point.png">
+</div>
   <div class="row">
     <% @listings.each do |listing| %>
       <div class="col-md-3">
@@ -11,13 +18,18 @@
           <div class="caption">
             <h3><%= listing.name %></h3>
             <p><%= number_to_currency(listing.price) %></p>
-            <p><%= "Sold by #{listing.user.name}" %></p>
           </div>
         </div>
       </div>
     <% end %>
   </div>
-</div>    
+</div>
+           <div class="first-section">
+            </div>
+            <div class="second-section">
+            </div>
+            <div class="third-section">
+            </div>    
 
 <br>
 

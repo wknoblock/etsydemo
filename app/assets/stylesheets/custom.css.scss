@@ -1,23 +1,50 @@
 @import "bootstrap";
 
-body {
-	background-color: #f5f5f1;
-	color: #333333;
-	font-family: Arial, Helvetica, sans-serif;
+* {
+	font-family: open sans !important;
+	margin: 0;
+	padding: 0;
+}
 
+.container{
+	padding: 0;
+	width: 100% !important;
+}
+
+.container-fluid{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: white;
+	color: white;
+	font-family: open sans !important;
+
+}
+
+.navbar-collapse{
+	padding: 0;
+	margin: 0;
 }
 
 .navbar-default {
-	background-color: #EFEFEB;
-
+	background-color: white;
+	height: 100px;
+	border-color: white;
 
 }
+
+hr.navbar-border{ 
+margin-top: 100px;
+height: 5px;
+background-color: rgb(238, 66, 47)}
 
 .navbar-default .navbar-brand {
 	font-family: guardian-egyptt, georgia, serif;
 	font-weight: 400;
-	color: #d5641c;
-	font-size: 30px;
+	color: red;
+	font-size: 50px;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -31,6 +58,17 @@ body {
 .center {
 	text-align: center;
 }
+
+.marketplace {
+	color: white;
+	font-weight: 300;
+	height: 155px;
+	background-color: rgb(238, 66, 47);
+	h1 {font-size: 70px;
+		padding-top: 35px;}
+}
+
+.point{margin-top: -10px}
 
 .col-md-3:nth-child(4n+1) {
 	clear: left;
@@ -66,10 +104,56 @@ body {
 
 }
 
+.subscribe-button {
+	font-size: 45px !important;
+	color: white;
+	text-align: center;
+	width: 250px;
+	color: white;
+	border-width: 0px;
+	background-color: turquoise;
+	padding: 20px;
+	font-size: 25px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	-moz-box-shadow: 0px 3px 5px 6px #ccc;
+	-webkit-box-shadow: 0px 3px 5px 6px #ccc;
+	box-shadow: 8px 8px 10px 1px #ccc;
+}
+.subscribe-button:hover{
+	color: chartreuse;
+}
+
+img.bocandy-logo{
+	height: 75px;
+}
+
+
+.first-section {
+	height: 500px;
+	background-color: red;
+}
+
+.third-section {
+	height: 500px;
+	background-color: red;
+}
+
+.second-section {
+	height: 500px
+}
 
 .jumbotron {
-	color: white;
-	background-image: url('https://dl.dropboxusercontent.com/s/jewgo1prkn7nxtn/jumbotron.jpg?dl=0');
+	color: black;
+	height: 500px;
+	font-family: open sans;
+	background-image: url('https://dl.dropboxusercontent.com/s/1bf1edr87avnk2h/BocandyJumbotrn.jpg?dl=0');
+	h1 {
+	font-size: 49px;
+	margin-bottom: -10px;
+	}
 	h1, h2 {
 		font-family: guardian-egyptt, georgia, serif;
 
